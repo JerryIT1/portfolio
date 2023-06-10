@@ -1,0 +1,52 @@
+.about__container{
+    background:-moz-linear-gradient(90deg, rgba(2, 170, 176, 1) 0%, rgba(0, 205, 172, 1) 100%); 
+    
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, rgba(2, 170, 176, 1) 0%, rgba(0, 205, 172, 1) 100%);
+    
+    /* opera 11.10+ */
+    background:-o-linear-gradient(90deg, rgba(2, 170, 176, 1) 0%, rgba(0, 205, 172, 1) 100%);
+    
+    /* ie 10+ */
+    background:-ms-linear-gradient(90deg, rgba(2, 170, 176, 1) 0%, rgba(0, 205, 172, 1) 100%);
+    
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(2, 170, 176, 1) 0%, rgba(0, 205, 172, 1) 100%);
+    
+    background-clip:content-box;
+    -webkit-background-clip:content-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+  
+.about__container-header{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.about__container-information{
+    color:white;
+}
+
+.about__container-text{
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Inside{
+    display:flex;
+    flex-direction:row;
+}
+
+.picture{
+    padding-left: 200px;
+    padding-right: 100px;
+    width: 400px;
+    height: 500px;
+}
+
+.about__container-picture{
+    text-align: center;
+    padding-bottom: 75px;
+}

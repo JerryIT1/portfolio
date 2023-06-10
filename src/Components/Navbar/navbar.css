@@ -1,0 +1,30 @@
+.navbar__container {
+   
+    text-transform: uppercase;
+    position: relative;
+    padding: 0 2rem;
+    width: 95%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__container-links {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    position: relative;
+    left: 75%;
+    top: 30%;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
+
+
+a{
+    text-decoration: none;
+}

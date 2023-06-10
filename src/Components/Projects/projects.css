@@ -1,0 +1,54 @@
+.projects__container{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.projects__container-header{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.picture1{
+    height:500px;
+    width: 900px;
+    
+    border-radius: 50px;
+}
+
+.projects__container-information{
+    display:flex;
+    flex-direction:column;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.projects__container-card{
+    display:flex;
+    flex-direction:row;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link{
+    background:-moz-linear-gradient(90deg, rgba(2, 170, 176, 1) 0%, rgba(0, 205, 172, 1) 100%); 
+    
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, rgba(2, 170, 176, 1) 0%, rgba(0, 205, 172, 1) 100%);
+    
+    /* opera 11.10+ */
+    background:-o-linear-gradient(90deg, rgba(2, 170, 176, 1) 0%, rgba(0, 205, 172, 1) 100%);
+    
+    /* ie 10+ */
+    background:-ms-linear-gradient(90deg, rgba(2, 170, 176, 1) 0%, rgba(0, 205, 172, 1) 100%);
+    
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(2, 170, 176, 1) 0%, rgba(0, 205, 172, 1) 100%);
+    
+    background-clip:content-box;
+    -webkit-background-clip:content-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    border-radius: 25px;
+}
