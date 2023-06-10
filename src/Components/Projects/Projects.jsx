@@ -49,7 +49,7 @@ const Projects = () => {
             </Fade>
             <Indiv1 
                 name={"MoviesMoviesMovies"} 
-                desc={"Created this to use the IMDB api and get updated information through all of the movies/shows in their database."}
+                desc={"Created this to use the IMDB api and get updated information on all of the movies/shows in their database."}
                 github={'https://github.com/JerryIT1/MoviesWebsite'}
                 img={'https://i.ibb.co/RgXqbVH/image-2023-06-09-173604458.png'}
             />
