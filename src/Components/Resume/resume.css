@@ -1,5 +1,4 @@
 
-
 .resume__container{
     background:-moz-linear-gradient(90deg, rgba(2, 170, 176, 1) 0%, rgba(0, 205, 172, 1) 100%); 
     
@@ -30,11 +29,36 @@
 .Resume-img{
     width: 850px;
     height: 1000px;
+    border: rgba(2, 170, 176, 1);
+    border-radius: 100px;
+    border-style: solid;
+}
+
+.Resume-img-hidden{
+  width: 850px;
+  height: 1px;
+
 }
 
 .resume-folder{
     margin: 0;
     padding-top: 50px;
+    background:-moz-linear-gradient(90deg, rgba(2, 170, 176, 1) 0%, rgba(0, 205, 172, 1) 100%); 
+    
+  /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, rgba(2, 170, 176, 1) 0%, rgba(0, 205, 172, 1) 100%);
+  
+  /* opera 11.10+ */
+    background:-o-linear-gradient(90deg, rgba(2, 170, 176, 1) 0%, rgba(0, 205, 172, 1) 100%);
+  
+  /* ie 10+ */
+    background:-ms-linear-gradient(90deg, rgba(2, 170, 176, 1) 0%, rgba(0, 205, 172, 1) 100%);
+  
+  /* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(2, 170, 176, 1) 0%, rgba(0, 205, 172, 1) 100%);
+  
+    background-clip:content-box;
+    -webkit-background-clip:content-box;
 }
 
 .resume__button{
@@ -88,4 +112,14 @@
        calc(100% - var(--d)) 100%, 
        0% 100%
      );
+}
+
+
+.buttons__resume{
+  text-align: center;
+}
+
+.resume-folder{
+  text-align: center;
+
 }
