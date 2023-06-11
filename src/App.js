@@ -1,5 +1,6 @@
 
 import React from 'react';
+
 import { About, Home, Navbar, Resume, Projects } from './Components';
 
 const App = () => {

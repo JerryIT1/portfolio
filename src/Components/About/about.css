@@ -29,9 +29,11 @@
 }
 
 .about__container-text{
-    text-align: center;
+    text-align: justify;
     font-size: 1.4rem;
     font-family: Arial, Helvetica, sans-serif;
+    padding-right: 200px;
+
 }
 
 .Inside{
@@ -49,4 +51,10 @@
 .about__container-picture{
     text-align: center;
     padding-bottom: 75px;
+    padding-left: 200px;
+
+}
+
+.about__container-waste{
+    margin-bottom: 465px;
 }
