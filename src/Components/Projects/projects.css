@@ -47,7 +47,7 @@
 
 
 
-.link{
+.projects__container-card-link{
     background:-moz-linear-gradient(90deg, rgba(2, 170, 176, 1) 0%, rgba(0, 205, 172, 1) 100%); 
     
     /* safari 5.1+,chrome 10+ */
@@ -73,4 +73,8 @@
     display: flex;
     object-fit:fill;
     justify-content: center;
+}
+
+.project__container-waste{
+    margin-bottom: 800px;
 }

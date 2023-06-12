@@ -24,7 +24,7 @@ const Indiv1 = (props) => {
                     
                     <div className="link">
                         <div className="projects__container-card-link">
-                            <a href={props.github}>Link to Source Code</a>
+                            <a href={props.github} target="_blank" rel="noopener noref">Link to Source Code</a>
                         </div>
                             <div className="GithubIMG">
                         <img className="IMG" src="https://i.ibb.co/C1SMGvj/Octicons-mark-github-svg.png"/>
@@ -61,10 +61,11 @@ const Projects = () => {
                     github={"https://github.com/JerryIT1/portfolio"}
                     img={'https://i.ibb.co/tmYJs62/image-2023-06-10-002249356.png'}
             
-            
+                
                 />
-
+                <div className="project__container-waste"></div>
             </div>  
+            
         </div>
     )
 };
