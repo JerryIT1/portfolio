@@ -48,7 +48,7 @@ const Projects = () => {
                 <h1>Projects</h1>
             </div>
             </Fade>
-            <div className="projects__contianer-holder">
+            <div className="projects__container-holder">
                 <Indiv1 
                     name={"Movies Website"} 
                     desc={"Created this to use the IMDB api and get updated information on all of the movies in their database."}

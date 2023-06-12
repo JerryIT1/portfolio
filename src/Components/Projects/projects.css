@@ -34,7 +34,7 @@
     justify-content: space-between;
 }
 
-.projects__contianer-holder{
+.projects__container-holder{
     display: flex;
     flex-direction: row;
     inline-size: 35%;
@@ -42,7 +42,7 @@
     column-gap: 40px;
     margin-right: 20%;
     position: relative;
-    margin-left: 30%;
+    margin-left: 32%;
 }
 
 
