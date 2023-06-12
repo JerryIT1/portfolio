@@ -10,7 +10,7 @@ const Home = () => {
                 <div className="home__container-text">
                     <h2 className="home__container-text-top">Hi, I'm 
                     <span className="gradient"> Berman.</span></h2>
-                    <h2 className="home__container-text-bottom">I'm a Front-End Developer.</h2>
+                    <h2 className="home__container-text-bottom">I'm a guy who likes to code.</h2>
                 </div>
             </Fade>
             <Fade bottom>
