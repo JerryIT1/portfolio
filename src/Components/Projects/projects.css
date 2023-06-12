@@ -1,5 +1,6 @@
 .projects__container{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 .projects__container-header{
@@ -8,28 +9,43 @@
 }
 
 .picture1{
-    height:500px;
-    width: 900px;
-    
-    border-radius: 50px;
+    height:150px;
+    width: 300px;
+    object-fit:fill;
+    border-radius: 5px;
 }
 
 .projects__container-information{
     display:flex;
     flex-direction:column;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 75px;
-    padding-bottom: 50px;
+    object-fit:fill;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(2, 170, 176, 1) 0%, rgba(0, 205, 172, 1) 100%);
+    border-radius: 25px;
+    
 }
 
 .projects__container-card{
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     text-align: center;
     font-size: 1.4rem;
     font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
 }
+
+.projects__contianer-holder{
+    display: flex;
+    flex-direction: row;
+    inline-size: 35%;
+    justify-content:center;
+    column-gap: 40px;
+    margin-right: 20%;
+    position: relative;
+    margin-left: 30%;
+}
+
+
 
 .link{
     background:-moz-linear-gradient(90deg, rgba(2, 170, 176, 1) 0%, rgba(0, 205, 172, 1) 100%); 
@@ -51,4 +67,10 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     border-radius: 25px;
+}
+
+.projects__container-card-picture{
+    display: flex;
+    object-fit:fill;
+    justify-content: center;
 }
